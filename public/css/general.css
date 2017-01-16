@@ -318,6 +318,13 @@ color: #ECEBEB;
 	background-size: cover;
 }
 
+.banner_nada {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/intro/sem_cat.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 /* Animate */
 .rotate{
     -webkit-transition-duration: 0.8s;
@@ -1068,7 +1075,7 @@ color: #ECEBEB;
 		    background-image: none; 
 			background-size: cover;
 			text-align: center;
-			background-color: #34495e;
+			background: url(../img/intro/intro5_modal.jpg) no-repeat center center;
 		}
 		
 		h1, .h1 {
