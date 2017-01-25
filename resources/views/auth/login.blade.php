@@ -1,6 +1,7 @@
 @extends('template');
 
 @section('content')
+    as
     {!!  Form::open(array('url' => 'login'))  !!}
         <h1>Login</h1>
 

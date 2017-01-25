@@ -12,7 +12,7 @@ class PostsController extends Controller
 {
     public function categorias($id)
     {
-        $posts = Posts::where(['categoria_id' => $id])->get();
+        $posts = Posts::where(['categoria_id' => $id])->orderBy('id', 'desc')->get();
 
         return view('posts.index', compact('posts'));
     }

@@ -11,8 +11,17 @@ $mostrar=true;?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+    <meta name="description" content=Lowcarb para me casar magra.">
+    <meta name="author" content="Hana Carolina Moreira de oliveira">
+    <meta property="og:url"           content="http://www.voucasarmagra.com.br" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Vou Casar Magra" />
+    <meta property="og:description"   content="Lowcarb para me casar magra." />
+    <meta property="og:image"         content="http://www.voucasarmagra.com.br/img/intro/intro5.jpg" />
+    <meta property="og:site_name"     content=”Vou Casar Magra“/>
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
 
     <title>Vou casar magra</title>
@@ -53,7 +62,11 @@ $mostrar=true;?>
 
     <script src="js/jquery.countdown.min.js"></script>
     <link href="css/media.css" rel="stylesheet" type="text/css" />
+
+
+
     <script>
+
         $(function(){
             $(".digits").countdown({
                 image: "img/digits.png",
@@ -78,7 +91,14 @@ $mostrar=true;?>
 </head>
 
 <body id="home">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <div id="instafeed"></div
         <!-- Preloader -->
 <div id="preloader">
@@ -94,7 +114,6 @@ $mostrar=true;?>
             <?php endif;?>
             {{--<img src="/img/logo.png" style="width: 400px;"/>--}}
         </h1>
-
     </div>
     <!-- /.container -->
     <div class="col-xs-12 text-center abcen wow fadeIn">
@@ -120,7 +139,6 @@ $mostrar=true;?>
         </div>
 
         @include('templates.menu')
-
     </div>
 </nav>
 

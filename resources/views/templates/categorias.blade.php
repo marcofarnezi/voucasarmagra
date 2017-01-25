@@ -33,7 +33,7 @@
                 <a href="{{ route('posts.categorias', ['id' => 3]) }}">
                     <img  class="rotate" src="img/icon/retina.png" alt="Generic placeholder image">
                     <h3>Casamento</h3>
-                    <p class="lead">Historias de amor, paletas de cores, decoração, seminonia, vestimenta, buffets, dia da noiva e muitas dicas para realizar neste dia inesquecível. </p>
+                    <p class="lead">Historias de amor, paletas de cores, decoração, cerimônia, vestimenta, buffets, dia da noiva e muitas dicas para realizar neste dia inesquecível. </p>
                     <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
                 </a>
             </div><!-- /.col-lg-4 -->

@@ -1,4 +1,3 @@
-<!-- FlatFy Theme - Andrea Galanti /-->
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -8,9 +7,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+    <meta name="author" content="Hana Carolina Moreira de oliveira">
+    @yield('tags')
+
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
 
     <title>Vou casar magra</title>
 
@@ -50,6 +51,7 @@
 
     <script src="/js/jquery.countdown.min.js"></script>
     <link href="/css/media.css" rel="stylesheet" type="text/css" />
+
     <script>
         $(function(){
             $(".digits").countdown({
